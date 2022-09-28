@@ -1,0 +1,119 @@
+/* home */
+body{
+    background-image:url(stele.jpg);
+    text-align: center;
+    margin: auto;
+    vertical-align: middle;
+    color:white;
+    height:100%;
+    background-position:center;
+    background-size:cover;
+}
+
+h1{
+    color: rgb(214, 213, 213);
+}
+
+div{
+    background-color: rgba(138, 228, 3, 0.774);
+    border-radius: 15px;
+    color:white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    text-transform:uppercase;
+}
+
+nav ul{
+    text-align:center;
+    margin: 0;
+    padding: 0;
+    list-style-type:none;
+}
+
+nav li{
+    margin-top: 80px;
+    display:inline-block;
+    margin-right: 20px;
+    padding: 5px 30px;
+    border-style: outset;
+}
+
+footer{
+    background: black;
+    color:gray;
+    font-size: 14px;
+    vertical-align: text-bottom;
+    position:absolute;
+    bottom:0;
+}
+
+/*review*/
+
+.reviewBody{
+    background-image:url(stars.jpg);
+}
+
+.prod{
+    text-align: left ;
+    background-color:palegoldenrod
+}
+
+img{
+    vertical-align: top;
+}
+
+.baterii{
+    padding: 15 px;
+    background-color: orchid;
+    color:black;
+    text-align: left;
+}
+
+.mouse{
+    padding: 15 px;
+    background-color:peru;
+    color:black;
+    text-align: left;
+}
+
+.vin{
+    padding: 15 px;
+    background-color:plum;
+    color:black;
+    text-align: left;
+}
+
+.ssd{
+    padding: 15 px;
+    background-color:salmon;
+    color:black;
+    text-align: left;
+}
+
+/*utilizator*/
+
+.user{
+    background-color: orangered;
+}
+
+.alluser{
+    vertical-align:middle;
+    text-align: center;
+}
+
+/*contact*/
+
+.contact{
+  margin: auto;
+  width: 60%;
+  border: 3px solid #73AD21;
+  padding: 10px;
+  background-color: rgba(0, 255, 255, 0.541);
+}
